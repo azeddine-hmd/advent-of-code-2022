@@ -3,7 +3,7 @@ my solution to advent of code 2022 puzzles using java
 
 ### run program
 
-maven binary required!
+* install apache maven, then run command below:
 
 `mvn compile exec:java`
 
