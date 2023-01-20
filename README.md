@@ -7,5 +7,5 @@ my solution to advent of code 2022 puzzles using java
 
 `mvn compile exec:java`
 
-### how to change days input files ?
+### where to find days input files ?
 all days input files can be found under directory `src/main/resources`
