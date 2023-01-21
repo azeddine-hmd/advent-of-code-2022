@@ -1,27 +1,21 @@
 package xyz.azeddine.aoc.days;
 
-import java.io.IOException;
-import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
 
 import xyz.azeddine.aoc.Util;
 
-public class Day3 {
+public class Day3 extends DayBase {
 
-    private static final String INPUT_FILENAME = "day3.txt";
+    private final List<String> lines = Util.getInputLines("day3.txt");
+    private final String alphabet = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-    private static final String alphabet = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-    public static void run() throws IOException, URISyntaxException {
-        List<String> lines = Util.getInputLines(INPUT_FILENAME);
-        System.out.println("part1:");
-        part1(lines);
-        System.out.println("part2:");
-        part2(lines);
+    public Day3() {
+        System.out.println("[Day3]");
     }
 
-    private static void part1(List<String> lines) {
+    @Override()
+    protected void part1() {
         int priority = 0;
 
         Task1:
@@ -39,7 +33,8 @@ public class Day3 {
         System.out.println(priority);
     }
 
-    private static void part2(List<String> lines) {
+    @Override()
+    protected void part2() {
         int priority = 0;
         int count = 0;
 

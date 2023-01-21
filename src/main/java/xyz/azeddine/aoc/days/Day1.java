@@ -1,25 +1,21 @@
 package xyz.azeddine.aoc.days;
 
-import java.io.IOException;
-import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
 import xyz.azeddine.aoc.Util;
 
-public class Day1 {
-    private static final String INPUT_FILENAME = "day1.txt";
+public final class Day1 extends DayBase {
 
-    public static void run() throws IOException, URISyntaxException {
-        List<String> lines = Util.getInputLines(INPUT_FILENAME);
-        System.out.println("part1:");
-        part1(lines);
-        System.out.println("part2:");
-        part2(lines);
+    private final List<String> lines = Util.getInputLines("day1.txt");
+
+    public Day1() {
+        System.out.println("[Day1]");
     }
 
-    private static void part1(List<String> lines) {
+    @Override()
+    protected void part1() {
         int calories = 0;
         int highestCalories = 0;
         for (String line : lines) {
@@ -35,7 +31,8 @@ public class Day1 {
         System.out.println(highestCalories);
     }
 
-    private static void part2(List<String> lines) {
+    @Override()
+    protected void part2() {
         List<Integer> calories = new ArrayList<>();
         int calorie = 0;
         for (String line : lines) {
