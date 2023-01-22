@@ -1,14 +1,9 @@
 package xyz.azeddine.aoc.days;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 import xyz.azeddine.aoc.Util;
-import xyz.azeddine.aoc.Util.Pair;
 
 public class Day4 extends DayBase {
 
