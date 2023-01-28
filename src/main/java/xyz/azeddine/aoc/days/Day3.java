@@ -14,7 +14,7 @@ public class Day3 extends DayBase {
         System.out.println("[Day3]");
     }
 
-    @Override()
+    @Override
     protected void part1() {
         int priority = 0;
 
@@ -33,7 +33,7 @@ public class Day3 extends DayBase {
         System.out.println(priority);
     }
 
-    @Override()
+    @Override
     protected void part2() {
         int priority = 0;
         int count = 0;

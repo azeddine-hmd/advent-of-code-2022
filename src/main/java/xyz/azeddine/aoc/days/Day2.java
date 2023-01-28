@@ -13,7 +13,7 @@ public final class Day2 extends DayBase {
         System.out.println("[Day2]");
     }
 
-    @Override()
+    @Override
     protected void part1() {
         final List<Round> rounds = new ArrayList<>();
         for (String line : lines) {
@@ -31,7 +31,7 @@ public final class Day2 extends DayBase {
         System.out.println(sum);
     }
 
-    @Override()
+    @Override
     protected void part2() {
         final List<Round> rounds = new ArrayList<>();
         for (String line : lines) {

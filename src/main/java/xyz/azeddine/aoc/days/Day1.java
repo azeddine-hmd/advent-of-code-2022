@@ -14,7 +14,7 @@ public final class Day1 extends DayBase {
         System.out.println("[Day1]");
     }
 
-    @Override()
+    @Override
     protected void part1() {
         int calories = 0;
         int highestCalories = 0;
@@ -31,7 +31,7 @@ public final class Day1 extends DayBase {
         System.out.println(highestCalories);
     }
 
-    @Override()
+    @Override
     protected void part2() {
         List<Integer> calories = new ArrayList<>();
         int calorie = 0;

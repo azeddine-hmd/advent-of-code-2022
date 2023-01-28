@@ -39,4 +39,8 @@ public class Util {
             return "(" + first + ", " + second + ")";
         }
     }
+
+    public static boolean isNumber(String s) {
+        return s.matches("[+-]?\\d+");
+    }
 }
